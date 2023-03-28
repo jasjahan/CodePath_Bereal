@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 - [X] User stays logged in when app is closed and open again    
 
 ## Video Walkthrough
-
 Here's a walkthrough of implemented user stories:
-![](https://i.imgur.com/F8a9GOW.gif)
+
+![](https://i.imgur.com/77gjTxN.gif)
 
