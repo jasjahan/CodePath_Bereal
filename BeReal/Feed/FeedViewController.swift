@@ -39,9 +39,18 @@ class FeedViewController: UIViewController {
 
     private func queryPosts() {
         // TODO: Pt 1 - Query Posts
+        
+        let yesterdayDate = Calendar.current.date(byAdding: .day, value: (-1), to: Date())!
+//
+//        let query = Post.query()
+//            .include("user")
+//            .order([.descending("createdAt")])\
+        
         let query = Post.query()
             .include("user")
             .order([.descending("createdAt")])
+            .where("createdAt" >= yesterdayDate) // <- Only include results created yesterday onwards
+            .limit(10) // <- Lim
 
         // Fetch objects (posts) defined in query (async)
         query.find { [weak self] result in

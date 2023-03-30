@@ -1,4 +1,35 @@
-# Project 5 - *BeReal*
+# Project 6 - *BeReal*
+
+Submitted by: **Jasmine Jahan**
+
+**BeReal** is an app where users post a photo of what they’re currently doing upon receiving a random notification during the day. Only after posting a photo can the user see their friends’ photos.
+Time spent: **5** hours spent in total
+
+## Required Features
+
+The following **required** functionality is completed:
+
+- [X] User can launch camera to take photo instead of photo library
+- [X] User session persists when application is closed and relaunched
+- [X] Users are able to log out and return to sign in page
+- [X] Users are NOT able to see other photos until they upload their own    
+ 
+The following **optional** features are implemented:
+
+- [ ] User receive notifcation when it is time to post
+- [ ] Users can make comments and view comments in post
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+1         |  2
+:-------------------------:|:-------------------------:
+![](https://i.imgur.com/UG8Sl58.gif) | ![](https://i.imgur.com/NEVOOci.gif)
+
+
+
+## Project 5 - *BeReal*
 
 Submitted by: **Jasmine Jahan**
 
